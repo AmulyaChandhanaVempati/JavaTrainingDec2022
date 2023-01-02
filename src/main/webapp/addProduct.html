@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>addProduct</title>
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+</style>
+</head>
+<body>
+<ul>
+		<li><a class="active" href="#home">Inventory Management
+				System</a></li>
+	</ul>
+	<form action="addProductController">
+		<h1 align="left">Adding Product:</h1>
+		<table align="left" bgcolor="green" width=400 height=200 border=2>
+			<caption>Product Form</caption>
+			<tr>
+				<td>Product ID:</td>
+				<td><input type=text name="id"></td>
+			</tr>
+			<tr>
+				<td>Product Name:</td>
+				<td><input type=text name="name"></td>
+			</tr>
+			<tr>
+				<td>Product Manufacturing Date:</td>
+				<td><input type=date name="manufacturingDate"></td>
+			</tr>
+			<tr>
+				<td>Product UseBeforeMonths :</td>
+				<td><input type=text name="useBeforeMonths"></td>
+			</tr>
+			<tr>
+				<td>Product Price:</td>
+				<td><input type=text name="price"></td>
+			</tr>
+			<tr>
+				<td><input type=submit value="Add Product"></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>

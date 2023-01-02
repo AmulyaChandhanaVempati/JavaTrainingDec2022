@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#home">Inventory Management
+				System</a></li>
+	</ul>
+	<form>
+
+		<table align="left" bgcolor="yellow" width=600 height=200 border=2>
+			<caption>
+				<h1>Menu</h1>
+			</caption>
+			<tr>
+				<td>Add Product:</td>
+				<td>
+				<a href="addProduct.html"> Add Product</a>
+				</td>
+			</tr>
+			<tr>
+				<td>List All Products (order of expiry date):</td>
+				<td>
+				<a href="listAllProductsController"> Show List</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Update Product By ID:</td>
+				<td>
+					<a href="updateProductById.html"> Update Product</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Update All Products By Expiry Date:</td>
+				<td>
+				
+					<a href="updateAllProductsByExpiryDateController"> Update All Products</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Delete Product By ID:</td>
+				<td>
+					<a href="deleteProductById.html"> Delete Product</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Delete Product By Expiry Date:</td>
+				<td>
+					<a href="deleteProductbyExpiryDateController"> Delete Product</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Apply Discount to Products:</td>
+				<td>
+					<a href="applyDiscountController"> Delete Product</a>
+				</td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
