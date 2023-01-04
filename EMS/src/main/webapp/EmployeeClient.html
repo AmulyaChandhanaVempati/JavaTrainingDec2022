@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="addEmployeeController">
+<h1>Adding Employee:</h1>
+<table align="center" bgcolor="yellow" width=400 height=200 border=2>
+  <caption>   Employee Form </caption>
+	<tr>  <td> Employee ID:</td> <td> <input type=text name="id">  </td></tr>
+	<tr>  <td> Employee Name:</td> <td> <input type=text name="name">  </td></tr>
+	<tr>  <td> Employee Joining Date:</td> <td> <input type=date name="joiningDate">  </td></tr>
+	<tr>  <td> Contract Duration:</td> <td> <input type=text name="contractDuration">  </td></tr>
+	<tr>  <td> Commercial:</td> <td> <input type=text name="commercial">  </td></tr>
+	<tr>	<td> <input type=submit value="Add Employee"> </td></tr>
+</table>
+</form>
+
+<form action="updateAllEmployeeContractEndDateController">
+<h1>updating All Employee Contract End Date:</h1>
+<input type=submit value="Update Contract End Date">
+</form>
+
+<form action="listAllEmployeesController">
+<h1>List All Employees:</h1>
+<input type=submit value="List All Employees">
+</form>
+
+<form action="updateEmployeeByIdController">
+<h1>updating Employee By ID :</h1>
+<table align="center" bgcolor="green" width=400 height=200 border=2>
+  <caption>   Employee Form </caption>
+	<tr>  <td> Employee ID:</td> <td> <input type=text name="id">  </td></tr>
+	<tr>  <td> Employee Name:</td> <td> <input type=text name="name">  </td></tr>
+	<tr>  <td> Employee Joining Date:</td> <td> <input type=date name="joiningDate">  </td></tr>
+	<tr>  <td> Contract Duration:</td> <td> <input type=text name="contractDuration">  </td></tr>
+	<tr>  <td> Commercial:</td> <td> <input type=text name="commercial">  </td></tr>
+	<tr>	<td> <input type=submit value="Update Employee"> </td></tr>
+</table>
+</form>
+
+<form action="deleteEmployeeByIdController">
+<h1>Delete Employee By ID:</h1>
+Employee ID: <input type=text name="id"> 
+<input type=submit value="Delete Employee">
+</form>
+
+<form action="deleteEmployeebyContractDateController">
+<h1>Delete Employee By Contract Date:</h1>
+<input type=submit value="Delete Employee By Contract Date">
+</form>
+
+</body>
+</html>

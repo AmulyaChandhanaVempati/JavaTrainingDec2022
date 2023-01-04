@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="AddProductController">
+<h1>Adding Product</h1>
+<table align="center" bgcolor="cyan" width=400 height=200 border=2>
+  <caption>   Product Form </caption>
+	<tr>  <td> ID</td> <td> <input type=text name="id">  </td></tr>
+	<tr>  <td> name</td> <td> <input type=text name="name">  </td></tr>
+	<tr>  <td> Qty</td> <td> <input type=text name="qty">  </td></tr>
+	<tr>  <td> Price</td> <td> <input type=text name="price">  </td></tr>
+	<tr>	<td> <input type=submit value="Add Product"> </td></tr>
+</table>
+</form>
+
+<form action="http://localhost:8080/pmsWebApp/GetAllProductController">
+<h1>List Of All Products</h1>
+    <input type="submit" value="List PRoducts">
+</form>
+
+<form action="http://localhost:8080/pmsWebApp/DeleteProductController">
+<h1>Deleting Product</h1>
+    ID: <input type="text" name ="id">
+    <input type="submit" value="Delete Product">
+</form>
+
+<form action="http://localhost:8080/pmsWebApp/UpdateProductController">
+<h1>Updateing Product</h1>
+<table align="center" bgcolor="cyan" width=400 height=200 border=2>
+  <caption>   Product Form </caption>
+	<tr>  <td> ID</td> <td> <input type=text name="id">  </td></tr>
+	<tr>  <td> name</td> <td> <input type=text name="name">  </td></tr>
+	<tr>  <td> Qty</td> <td> <input type=text name="qty">  </td></tr>
+	<tr>  <td> Price</td> <td> <input type=text name="price">  </td></tr>
+	<tr>	<td> <input type=submit value="Update Product"> </td></tr>
+</table>
+</form>
+
+</body>
+</html>
